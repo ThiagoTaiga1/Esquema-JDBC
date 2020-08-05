@@ -1,10 +1,9 @@
 package model.dao;
 
-import java.util.List;
-
+import java.util.List; 
 import model.entities.Department;
 
-public interface DepartementDao {
+public interface DepartmentDao{
 	//INSERIR,UPDATE,DELETE OBJETO NO BD , COMO PARAMETRO DE ENTRADA !
 		void insert (Department obj);
 		void update (Department obj);
@@ -14,3 +13,4 @@ public interface DepartementDao {
 		//RETORNAR TODOS OS DEPARTAMENTOS !
 		List<Department> findAll();
 }
+	
